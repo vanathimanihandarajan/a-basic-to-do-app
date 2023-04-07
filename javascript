@@ -118,4 +118,6 @@ function updateStatusInLocalStorage(taskId) {
 
 deleteAll.onclick = function(e){
     tasksDiv.innerHTML = "";
-    window.loca
+    window.locaalStorage.removeItem("tasks")
+}
+
